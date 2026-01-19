@@ -1,4 +1,5 @@
 Disease Prediction from Medical Data
+
 📌 Project Overview
 
 This project focuses on predicting diseases based on patient symptoms and medical features using machine learning classification techniques. It is part of Task 4: Disease Prediction from Medical Data and aims to build accurate predictive models and evaluate them using proper metrics and visualizations.
