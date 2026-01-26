@@ -1,105 +1,83 @@
-Disease Prediction from Medical Data
+# Disease Prediction from Medical Data
 
-📌 Project Overview
+## 📌 Project Overview
 
-This project focuses on predicting diseases based on patient symptoms and medical features using machine learning classification techniques. It is part of Task 4: Disease Prediction from Medical Data and aims to build accurate predictive models and evaluate them using proper metrics and visualizations.
+This project focuses on predicting diseases based on patient symptoms and medical features using machine learning classification techniques. It is part of **Task 3 Disease Prediction from Medical Data** and aims to build accurate and reliable predictive models evaluated using proper metrics and visualizations.
 
-🎯 Objective
 
-To predict the possibility of diseases using structured medical data such as symptoms and related features by applying supervised machine learning algorithms.
+## 🎯 Objective
 
-📂 Dataset
+The main objective of this project is to predict the possibility of diseases using structured medical data such as symptoms and related features by applying supervised machine learning algorithms.
 
-Kaggle Dataset Used:
-Disease Symptom Description Dataset
-🔗 https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset
 
-The dataset contains:
+## 📂 Dataset
 
-Disease names
+### Kaggle Dataset Used:
+**Disease Symptom Description Dataset**  
+🔗 https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset  
 
-Symptom descriptions
+### Dataset Contains:
+- Disease names  
+- Symptom descriptions  
+- Structured symptom-related features  
 
-Structured symptom-related features
 
-🧠 Algorithms Used
+## 🧠 Algorithms Used
 
-Logistic Regression
+- Logistic Regression  
+- Support Vector Machine (SVM)  
+- Random Forest  
+- XGBoost  
 
-Support Vector Machine (SVM)
 
-Random Forest
+## ⚙️ Project Workflow
 
-XGBoost
+- Load and explore the dataset  
+- Handle missing values and remove duplicates  
+- Encode categorical features  
+- Split data into training and testing sets  
+- Apply feature scaling  
+- Train multiple machine learning models  
+- Evaluate model performance  
+- Visualize results for comparison  
 
-⚙️ Project Workflow
 
-Load and explore dataset
+## 📊 Evaluation Metrics
 
-Handle missing values and duplicates
+- Accuracy Score  
+- Confusion Matrix  
+- Precision  
+- Recall  
+- F1-Score  
+- Performance comparison between models  
 
-Encode categorical data
 
-Split data into training and testing sets
+## 🛠️ Technologies Used
 
-Apply feature scaling
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Scikit-learn  
+- XGBoost  
 
-Train multiple ML models
 
-Evaluate using:
+## 📁 Files Included
 
-Accuracy
+- Dataset (CSV file)  
+- Jupyter Notebook with complete implementation  
+- Trained model files (`.pkl`)  
+- Result graphs and evaluation outputs  
 
-Confusion Matrix
 
-Classification Report
+## 🚀 How to Run the Project
 
-Visualize results
+1. Clone the repository  
+2. Install the required libraries  
+3. Run the Jupyter Notebook step by step  
+4. Train models and analyze evaluation results  
+5. Use the saved `.pkl` model for prediction  
 
-📊 Evaluation Metrics
 
-Accuracy Score
+## 📌 Outcome
 
-Confusion Matrix
-
-Precision, Recall, F1-score
-
-Performance comparison between models
-
-🛠️ Technologies Used
-
-Python
-
-Pandas, NumPy
-
-Matplotlib, Seaborn
-
-Scikit-learn
-
-XGBoost
-
-📁 Files Included
-
-Dataset (CSV)
-
-Jupyter Notebook with full code
-
-Trained model file (.pkl)
-
-Result graphs and evaluation outputs
-
-🚀 How to Run
-
-Clone this repository
-
-Install required libraries
-
-Run the notebook step by step
-
-Train models and view results
-
-Use saved .pkl model for prediction
-
-📌 Outcome
-
-This project successfully predicts diseases based on symptoms and compares multiple machine learning models to select the best-performing one for medical prediction tasks.
+This project successfully predicts diseases based on patient symptoms and compares multiple machine learning models to identify the **best-performing model** for medical prediction tasks. It demonstrates an end-to-end machine learning pipeline from data preprocessing to model evaluation.
