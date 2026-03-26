@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project focuses on predicting diseases based on patient symptoms and medical features using machine learning classification techniques. It is part of **Task 3 Disease Prediction from Medical Data** and aims to build accurate and reliable predictive models evaluated using proper metrics and visualizations.
+This project Code Alpha focuses on predicting diseases based on patient symptoms and medical features using machine learning classification techniques. It is part of **Task 3 Disease Prediction from Medical Data** and aims to build accurate and reliable predictive models evaluated using proper metrics and visualizations.
 
 
 ## 🎯 Objective
